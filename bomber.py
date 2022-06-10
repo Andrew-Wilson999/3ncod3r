@@ -804,7 +804,7 @@ while True:
         print('\n\nInvalid Country Code..\n\t\tCountry Codes Are Generally 1-3 digits...\n')
         continue
         if pn == "9593035680":
-        print('You Cant Bomb Me Boy')
+        print('\n\nYou Cant Bomb My Number..\n')
         exit()
     if len(pn) <= 6:
         print('\n\nInvalid Phone Number..\n')
