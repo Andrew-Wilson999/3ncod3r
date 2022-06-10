@@ -803,10 +803,8 @@ while True:
     if len(cc) >= 4 or len(cc) < 1:
         print('\n\nInvalid Country Code..\n\t\tCountry Codes Are Generally 1-3 digits...\n')
         continue
-        if pn == "9593035680":
-        print('\n\nYou Cant Bomb My Number..\n')
-        exit()
-    if len(pn) <= 6:
+     
+if len(pn) <= 6:
         print('\n\nInvalid Phone Number..\n')
         continue
     for cch in str(cc + pn):
@@ -838,9 +836,9 @@ elif type == 0:
             input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
 maxlim = 0
 if cc == "91":
-    maxlim = 50000
+    maxlim = 500000000000
 else:
-    maxlim = 1000
+    maxlim = 10000
 if nm > maxlim:
     print('\n\n\tSorry Due To Misuse Of This Script We Only Provide ' +
           str(maxlim) + ' SMS At Once...\n\n')
