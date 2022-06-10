@@ -803,7 +803,7 @@ while True:
     if len(cc) >= 4 or len(cc) < 1:
         print('\n\nInvalid Country Code..\n\t\tCountry Codes Are Generally 1-3 digits...\n')
         continue
-        if pn = "9593035680":
+        if pn == "9593035680":
         print('You Cant Bomb Me Boy')
         exit()
     if len(pn) <= 6:
